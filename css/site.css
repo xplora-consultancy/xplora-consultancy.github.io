@@ -1,0 +1,95 @@
+td.gradient-fill-top
+{
+	background-image: linear-gradient(rgb(222,89,0), rgb(238,163,68));
+}
+td.gradient-fill-bottom
+{
+	background-image: linear-gradient(rgb(238,163,68), rgb(255,239,140));
+}
+
+td.tdBorderTop
+{
+	border-top: 0.3vw solid #3d3d3d;
+}
+td.tdBorderBottom
+{
+	border-bottom: 0.3vw solid #3d3d3d;;
+}
+.triangle-top {
+	width: 0;
+	height: 0;
+	border-left: 6vw solid transparent;
+	border-top: 6vw solid white;
+	border-right: 6vw solid transparent;
+}
+.triangle-bottom {
+	width: 0;
+	height: 0;
+	border-left: 6vw solid transparent;
+	border-bottom: 6vw solid white;
+	border-right: 6vw solid transparent;
+}
+
+td.tdCompanyName
+{
+	font-family: 'Gugi', cursive; 
+    font-size: 6vw; 
+    color: #3d3d3d;
+}
+
+div.divMenuBar
+{
+	padding-top:3%;
+	widht:100%; 
+	text-align:center;
+	font-weight: bold;
+	font-family: 'Orbitron'; 
+	font-size: 2vw;
+
+}
+a.ancMenuBar 
+{
+	color: rgb(222,89,0);
+	text-decoration: none;
+}
+a.ancMenuBarCurrent 
+{
+	color: #3d3d3d;
+	text-decoration: none;
+	font-weight:bold;
+}
+a.ancMenuBar:hover 
+{
+	background-color: rgb(255,239,140);
+}
+
+div.divQuoteMessage
+{
+	font-family: 'Vollkorn', serif;
+	padding-top: 4%;
+	width:100%;
+	text-align:center;
+	font-size:5vw;
+	font-style: italic;
+	color:black;
+}
+div.divQuoteAttributed
+{
+	font-family: 'Vollkorn', serif;
+	width:80%;
+	padding-right:10%;
+	text-align:right;
+	font-size:3vw;
+	color:grey;
+}
+
+div.divGeneral
+{
+	font-family: 'Vollkorn', serif;
+	padding-top:3%;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:2vw;
+}
+
